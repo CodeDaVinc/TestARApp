@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76D43EC22D2108F00F726CD /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43EB22D2108F00F726CD /* ARViewController.swift */; };
+		A76D43EE22D2335000F726CD /* MyWorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43ED22D2335000F726CD /* MyWorldMap.swift */; };
+		A76D43F022D2415600F726CD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43EF22D2415600F726CD /* MapViewController.swift */; };
+		A76D43F222D244EB00F726CD /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43F122D244EB00F726CD /* PointOfInterest.swift */; };
+		A76D43F422D24C2300F726CD /* PointAddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43F322D24C2300F726CD /* PointAddingViewController.swift */; };
+		A76D43F622D24F9C00F726CD /* MapSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43F522D24F9C00F726CD /* MapSelectViewController.swift */; };
+		A76D43F822D2761600F726CD /* PointDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D43F722D2761600F726CD /* PointDetailViewController.swift */; };
 		A7D567DE22CE255F00682598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D567DD22CE255F00682598 /* AppDelegate.swift */; };
 		A7D567E022CE255F00682598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D567DF22CE255F00682598 /* ViewController.swift */; };
 		A7D567E322CE255F00682598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D567E122CE255F00682598 /* Main.storyboard */; };
@@ -14,6 +21,7 @@
 		A7D567E822CE256000682598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D567E622CE256000682598 /* LaunchScreen.storyboard */; };
 		A7D567F322CE256000682598 /* myFirstARappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D567F222CE256000682598 /* myFirstARappTests.swift */; };
 		A7D567FE22CE256000682598 /* myFirstARappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D567FD22CE256000682598 /* myFirstARappUITests.swift */; };
+		A7D5680E22CE450A00682598 /* QuickActions_Location_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D5680D22CE450A00682598 /* QuickActions_Location_2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A76D43EB22D2108F00F726CD /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		A76D43ED22D2335000F726CD /* MyWorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorldMap.swift; sourceTree = "<group>"; };
+		A76D43EF22D2415600F726CD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A76D43F122D244EB00F726CD /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		A76D43F322D24C2300F726CD /* PointAddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAddingViewController.swift; sourceTree = "<group>"; };
+		A76D43F522D24F9C00F726CD /* MapSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSelectViewController.swift; sourceTree = "<group>"; };
+		A76D43F722D2761600F726CD /* PointDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointDetailViewController.swift; sourceTree = "<group>"; };
 		A7D567DA22CE255F00682598 /* myFirstARapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstARapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D567DD22CE255F00682598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D567DF22CE255F00682598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,7 @@
 		A7D567F922CE256000682598 /* myFirstARappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstARappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D567FD22CE256000682598 /* myFirstARappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstARappUITests.swift; sourceTree = "<group>"; };
 		A7D567FF22CE256000682598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D5680D22CE450A00682598 /* QuickActions_Location_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuickActions_Location_2x.png; path = ../../../../Documents/QuickActions_Location_2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,20 @@
 		A7D567DC22CE255F00682598 /* myFirstARapp */ = {
 			isa = PBXGroup;
 			children = (
+				A7D5680D22CE450A00682598 /* QuickActions_Location_2x.png */,
 				A7D567DD22CE255F00682598 /* AppDelegate.swift */,
 				A7D567DF22CE255F00682598 /* ViewController.swift */,
 				A7D567E122CE255F00682598 /* Main.storyboard */,
 				A7D567E422CE256000682598 /* Assets.xcassets */,
 				A7D567E622CE256000682598 /* LaunchScreen.storyboard */,
 				A7D567E922CE256000682598 /* Info.plist */,
+				A76D43EB22D2108F00F726CD /* ARViewController.swift */,
+				A76D43ED22D2335000F726CD /* MyWorldMap.swift */,
+				A76D43EF22D2415600F726CD /* MapViewController.swift */,
+				A76D43F122D244EB00F726CD /* PointOfInterest.swift */,
+				A76D43F322D24C2300F726CD /* PointAddingViewController.swift */,
+				A76D43F522D24F9C00F726CD /* MapSelectViewController.swift */,
+				A76D43F722D2761600F726CD /* PointDetailViewController.swift */,
 			);
 			path = myFirstARapp;
 			sourceTree = "<group>";
@@ -205,7 +229,7 @@
 				};
 			};
 			buildConfigurationList = A7D567D522CE255F00682598 /* Build configuration list for PBXProject "myFirstARapp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,6 +255,7 @@
 			files = (
 				A7D567E822CE256000682598 /* LaunchScreen.storyboard in Resources */,
 				A7D567E522CE256000682598 /* Assets.xcassets in Resources */,
+				A7D5680E22CE450A00682598 /* QuickActions_Location_2x.png in Resources */,
 				A7D567E322CE255F00682598 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76D43EC22D2108F00F726CD /* ARViewController.swift in Sources */,
+				A76D43F422D24C2300F726CD /* PointAddingViewController.swift in Sources */,
+				A76D43F222D244EB00F726CD /* PointOfInterest.swift in Sources */,
 				A7D567E022CE255F00682598 /* ViewController.swift in Sources */,
 				A7D567DE22CE255F00682598 /* AppDelegate.swift in Sources */,
+				A76D43F622D24F9C00F726CD /* MapSelectViewController.swift in Sources */,
+				A76D43F022D2415600F726CD /* MapViewController.swift in Sources */,
+				A76D43F822D2761600F726CD /* PointDetailViewController.swift in Sources */,
+				A76D43EE22D2335000F726CD /* MyWorldMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
